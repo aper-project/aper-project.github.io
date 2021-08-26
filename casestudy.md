@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "CaseStudy"
+title: "Case Study"
 css: ["tags.css"]
 ---
 {% include casestudy.html %}
