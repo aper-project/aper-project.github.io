@@ -2,65 +2,16 @@
 layout: page
 css: ["index.css"]
 ---
-<div class="row">
-  {% for post in paginator.posts %}
-  <div class="col s12">
-    <div class="card hoverable">
-      <div class="card-content">
-        <span id="post-title" class="card-title">{{post.title}}</span>
-        <p id="post-date">
-          <i class="material-icons">date_range</i>
-          {{post.date | date: "%d/%m/%Y %H:%M"}}
-        </p>
-        <p id="post-content">{{post.excerpt | remove: '<p>' | remove: '</p>'}}</p>
-      </div>
-      <div class="card-action">
-        <a href="{{post.url | prepend: site.baseurl}}">
-          Read More
-        </a>
-      </div>
-    </div>
-  </div>
-  {% endfor %}
-  <div class="col s12 center-align">
-    <ul class="pagination">
-      <li class="{% unless paginator.previous_page %}disabled{% else %}waves-effect{% endunless %}">
-        {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <a href="{{site.baseurl}}/">
-        {% else %}
-        <a href="{{site.baseurl}}/page{{paginator.previous_page}}">
-        {% endif %}
-        {% else %}
-        <a href="#!">
-        {% endif %}
-          <i class="material-icons">chevron_left</i>
-        </a>
-      </li>
-      {% if paginator.page == 1 %}
-      <li class="active teal">
-        <a href="#!">1</a>
-      {% else %}
-      <li class="waves-effect">
-        <a href="{{site.baseurl}}/">1</a>
-      {% endif %}
-      </li>
-      {% for count in (2..paginator.total_pages) %}
-      {% if count == paginator.page %}
-      <li class="active teal"><a href="#!">{{count}}</a></li>
-      {% else %}
-      <li class="waves-effect"><a href="{{site.baseurl}}/page{{count}}">{{count}}</a></li>
-      {% endif %}
-      {% endfor %}
-      <li class="{% unless paginator.next_page %}disabled{% else %}waves-effect{% endunless %}">
-        {% if paginator.next_page %}
-        <a href="{{site.baseurl}}/page{{paginator.next_page}}">
-        {% else %}
-        <a href="#!">
-        {% endif %}
-          <i class="material-icons">chevron_right</i>
-        </a>
-      </li>
-    </ul>
+<div class="col s12 tag-div">
+  <div class="user-content">
+    <p>
+      Android platform introduces the runtime permission model sinceversion 6.0. The new model greatly improves data privacy and userexperience, but brings new challenges for app developers. First,the new model allows users to freely revoke granted permissions.Hence, developers cannot simply assume that permissions grantedto an app would keep being granted. Instead, they should maketheir app carefully check the permission status before invoking anypermission-protected APIs. Second, the permission specificationkeeps evolving, bringing new types of compatibility issues to theecosystem.
+    </p>
+    <p>
+      To understand the impact of the challenges, we con-ducted an empirical study on 13,352 popular Google Play apps. Wefound that 86% apps use permission-protected APIs asynchronouslyafter permission managements. If an app does not handle permis-sion revoking properly, it may easily crash at runtime. Besides,61.2% apps use evolving permission-protected APIs. If an app doesnot deal with the platform differences, it may exhibit abnormalruntime behaviors. Unfortunately, existing tools cannot effectivelydetect the bugs induced by asynchronous permission managementand permission specification evolution. 
+    </p>
+    <p>
+      ect...
+    </p>
   </div>
 </div>
