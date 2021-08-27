@@ -5,6 +5,8 @@ css: ["index.css"]
 ---
 {% include index.html %}
 
+
+
 ______
 
 ##### 1: Empirical Study
@@ -29,10 +31,10 @@ ___
 ---
 
 ##### 4: Case Study
-- * Type-1 misuse bug
-- * Safe inter-component ARP usage
-- * Type-2 bug in TPL
-- * Countermeasure against permission evolution
+-  Type-1 misuse bug
+-  Safe inter-component ARP usage
+-  Type-2 bug in TPL
+-  Countermeasure against permission evolution
 
 [**Click me see details**](https://aper-project.github.io/benchmarks)
 
