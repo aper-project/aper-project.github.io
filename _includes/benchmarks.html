@@ -1,13 +1,26 @@
 <div class="col s12 tag-div">
   <div class="user-content">
     <p>
-      Android platform introduces the runtime permission model sinceversion 6.0. The new model greatly improves data privacy and userexperience, but brings new challenges for app developers. First,the new model allows users to freely revoke granted permissions.Hence, developers cannot simply assume that permissions grantedto an app would keep being granted. Instead, they should maketheir app carefully check the permission status before invoking anypermission-protected APIs. Second, the permission specificationkeeps evolving, bringing new types of compatibility issues to theecosystem.
+      We set up two sets of compar-ative experiments to illustrate the effectiveness of Aper. There are three available tools (Lint,ARPDroid,RevDroid) can detect Type-1 ARP misuse bugs, while only Lint can detectType-2 bugs. 
     </p>
     <p>
-      To understand the impact of the challenges, we con-ducted an empirical study on 13,352 popular Google Play apps. Wefound that 86% apps use permission-protected APIs asynchronouslyafter permission managements. If an app does not handle permis-sion revoking properly, it may easily crash at runtime. Besides,61.2% apps use evolving permission-protected APIs. If an app doesnot deal with the platform differences, it may exhibit abnormalruntime behaviors. Unfortunately, existing tools cannot effectivelydetect the bugs induced by asynchronous permission managementand permission specification evolution. 
+      To compare their detecting results, if Lint reports a dangerous API missing permission checks (or RV checks), we treat it a Type-1 (or Type-2) bug warning; if ARPDroid inserts permission management statements on the calling context of a dangerous API,we regard it detects a Type-1 bug; we consider RevDroid detects a Type-1 bug, if it reports an unhandled permission revocation on a dangerous API call. 
     </p>
     <p>
-      ect...
+      We compare these tools with Aper, according to their:
+    </p>
+    <p>
+      1: True positive (TP): For a buggy version, detected it as buggy
+    </p>
+    <p>
+      2: True negative (TN): For a patched version, no warning is reported
+    </p>
+    <p>
+      3: False positive (FP): For a patched version, detected it as buggy
+    </p>
+    <p>
+      4: False negative (FN): For a buggy version, no warning is reported
     </p>
   </div>
 </div>
+

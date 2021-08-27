@@ -5,14 +5,19 @@ css: ["categories.css"]
 ---
 {% include benchmarks.html %}
 
+
+
+-----
 ##### 1: Type-1 
 
 **ready for editing**
 
-(Table, statics of aper, lint, revdroid&arpdroid)
+{% include benchmarkstype-1.html %}
 
-##### 2: Safe inter-component ARP usage
+
+-----
+##### 2: Type-2
 
 **ready for editing**
 
-(Table, statics of aper, lint, revdroid&arpdroid)
+{% include benchmarkstype-2.html %}
