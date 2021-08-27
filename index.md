@@ -18,4 +18,7 @@ To understand the practices of runtime permissions and exposethe limitations of 
 - Countermeasure against permission evolution
 
 ##### Benchmarks
-We built a benchmark,ARPfix, that contains buggy ARPusages in real open-source apps, and the corresponding patches.Specifically, we collected ARP issues from GitHub [6] that havingboth: issues related to permission check APIs and dangerous APIs,and, commits or pull requests that fix the issues. This resulted in61 projects that include 71 seeding ARP issues.
+We built a benchmark, ARPfix, that contains buggy ARPusages in real open-source apps, and the corresponding patches.
+
+
+[**Click me see Details**](https://aper-project.github.io/benchmarks)

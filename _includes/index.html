@@ -1,10 +1,10 @@
 <div class="col s12 tag-div">
   <div class="user-content">
     <p>
-      Android platform introduces the runtime permission model sinceversion 6.0. The new model greatly improves data privacy and userexperience, but brings new challenges for app developers. First,the new model allows users to freely revoke granted permissions.Hence, developers cannot simply assume that permissions grantedto an app would keep being granted. Instead, they should maketheir app carefully check the permission status before invoking anypermission-protected APIs. Second, the permission specificationkeeps evolving, bringing new types of compatibility issues to theecosystem.
+      Android platform introduces the runtime permission model since version 6.0. The new model greatly improves data privacy and user experience, but brings new challenges for app developers. First,the new model allows users to freely revoke granted permissions.Hence, developers cannot simply assume that permissions granted to an app would keep being granted. Instead, they should maketheir app carefully check the permission status before invoking any permission-protected APIs. Second, the permission specification keeps evolving, bringing new types of compatibility issues to the ecosystem.
     </p>
     <p>
-      To understand the impact of the challenges, we con-ducted an empirical study on 13,352 popular Google Play apps. Wefound that 86% apps use permission-protected APIs asynchronouslyafter permission managements. If an app does not handle permis-sion revoking properly, it may easily crash at runtime. Besides,61.2% apps use evolving permission-protected APIs. If an app doesnot deal with the platform differences, it may exhibit abnormalruntime behaviors. Unfortunately, existing tools cannot effectivelydetect the bugs induced by asynchronous permission managementand permission specification evolution. 
+      To understand the impact of the challenges, we conducted an empirical study on 13,352 popular Google Play apps. Wefound that 86% apps use permission-protected APIs asynchronouslyafter permission managements. If an app does not handle permission revoking properly, it may easily crash at runtime. Besides,61.2% apps use evolving permission-protected APIs. If an app doesnot deal with the platform differences, it may exhibit abnormal runtime behaviors. Unfortunately, existing tools cannot effectively detect the bugs induced by asynchronous permission management and permission specification evolution. 
     </p>
     <p>
       ect...
