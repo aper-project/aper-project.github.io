@@ -4,16 +4,15 @@ title: "Benchmarks"
 css: ["categories.css"]
 ---
 
-Link to ARPfix benchmark: [https://example.org](https://example.org)
+Link to ARPfix benchmark: <a href="https://www.example.com" target="_blank">www.example.com</a>
 
-Link to Aper executable: [https://example.org](https://example.org)
+Link to Aper executable: <a href="https://www.example.com" target="_blank">www.example.com</a>
 
-Link to Lint source code: [com/android/tools/lint/checks/PermissionDetector.kt](https://android.googlesource.com/platform/tools/base/+/refs/heads/studio-main/lint/libs/lint-checks/src/main/java/com/android/tools/lint/checks/PermissionDetector.kt#458)
+Link to Lint source code: <a href="https://android.googlesource.com/platform/tools/base/+/refs/heads/studio-main/lint/libs/lint-checks/src/main/java/com/android/tools/lint/checks/PermissionDetector.kt#458" target="_blank">com/android/tools/lint/checks/PermissionDetector.kt</a>
 
-Link to ARPDroid repository: [https://bitbucket.org/malindadoo/arpdroid/src/develop/](https://bitbucket.org/malindadoo/arpdroid/src/develop/)
+Link to ARPDroid repository: <a href="https://bitbucket.org/malindadoo/arpdroid/src/develop/" target="_blank">https://bitbucket.org/malindadoo/arpdroid/src/develop/</a>
 
-Link to RevDroid repository: [https://github.com/letitb/revdroid](https://github.com/letitb/revdroid)
-
+Link to RevDroid repository: <a href="https://github.com/letitb/revdroid" target="_blank">https://github.com/letitb/revdroid</a>
 
 We compare the tools by their:
 
