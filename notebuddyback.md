@@ -12,4 +12,4 @@ css: ["projects.css"]
 
 ---
 
-{% include videopages/type1/notebuddy.html %}
+{% include videopages/type1/notebuddyback.html %}
