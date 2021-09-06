@@ -23,7 +23,7 @@ css: ["index.css"]
 ##### 3: Aper tool
 The Aper executable and instructions.
 
-[**Click for more details**](https://aper-project.github.io/apertool)
+[**Click for more details**](https://aper-project.github.io/aper-tool)
 
 ---
 
