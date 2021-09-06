@@ -3,8 +3,8 @@ layout: page
 css: ["index.css"]
 # js: ["https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js", "projects.js"]
 ---
-{% include index.html %}
 
+{% include index.html %}
 
 ##### 1: Type-1 bugs in real apps
 (Missing Permission Check): A dangerous API is called without a permission check on the target Android version.
@@ -27,7 +27,7 @@ The Aper executable and instructions.
 
 ---
 
-##### 4: Benchmark
+##### 4: ARPfix benchmark
 The ARPfix benchmark that contains buggy ARP usages, and the corresponding patches, built from real-world Android projects.
 
 [**Click for more details**](https://aper-project.github.io/benchmarks)
