@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Benchmarks"
+title: "Benchmark Results"
 css: ["categories.css"]
 ---
 
 Link to ARPfix benchmark: <a href="https://www.example.com" target="_blank">www.example.com</a>
 
-Link to Aper executable: <a href="https://www.example.com" target="_blank">www.example.com</a>
+<!-- Link to Aper executable: <a href="https://www.example.com" target="_blank">www.example.com</a> -->
 
 Link to Lint source code: <a href="https://android.googlesource.com/platform/tools/base/+/refs/heads/studio-main/lint/libs/lint-checks/src/main/java/com/android/tools/lint/checks/PermissionDetector.kt#458" target="_blank">com/android/tools/lint/checks/PermissionDetector.kt</a>
 
@@ -26,7 +26,7 @@ We compare the tools by their:
 
 The evaluation metrics are:
 
-$$Precison=\frac{TP}{TP+FP}$$
+$$Precision=\frac{TP}{TP+FP}$$
 
 $$Recall=\frac{TP}{TP+FN}$$
 
@@ -34,11 +34,9 @@ $$F_1 score=\frac{2*Precision*Recall}{Precision+Recall}$$
 
 $$FPR=\frac{FP}{FP+TN}$$
 
-
 -----
 
 {% include benchmarkstype-1.html %}
-
 
 -----
 
