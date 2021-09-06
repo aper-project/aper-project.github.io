@@ -7,29 +7,28 @@ css: ["index.css"]
 
 
 ##### 1: Type-1 bugs in real apps
-(Missing Permission Checks): A dangerous API is called without a guarding permission check.
+(Missing Permission Check): A dangerous API is called without a permission check on the target Android version.
 
 [**Click for more details**](https://aper-project.github.io/type-1)
 
 ---
 
 ##### 2: Type-2 bugs in real apps
-(Incompatible Permission Usages): A new dangerousAPI is called on lower platforms, or the evolution of permissionspecifications is not fully handled.
+(Incompatible Permission Usage): A dangerous API is called on incompatible platforms, or the evolution of permission specification is not fully handled.
 
 [**Click for more details**](https://aper-project.github.io/type-2)
 
 ---
 
-##### 3: Benchmarks
-We built a benchmark, ARPfix, that contains buggy ARPusages in real open-source apps, and the corresponding patches.
-
+##### 3: Benchmark
+The ARPfix benchmark that contains buggy ARP usages, and the corresponding patches, built from real-world Android projects.
 
 [**Click for more details**](https://aper-project.github.io/benchmarks)
 
 ---
 
-##### 4: Empirical Study
-To understand the practices of runtime permissions and exposethe limitations of existing work, we conducted an empirical studyto investigate the following three research questions.
+##### 4: Empirical data
+The data used in our empirical study: API-permission mapping, and Google Play apps.
 
 [**Click for more details**](https://aper-project.github.io/empiricalstudy)
 
