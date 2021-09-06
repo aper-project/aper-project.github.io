@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "Empirical Study"
+title: "Empirical Study Data"
 css: ["categories.css"]
 ---
-{% include empiricalstudy.html %}
+<!-- {% include empiricalstudy.html %}
 
 <br><br>
 
@@ -35,4 +35,10 @@ ___
 
 
 
-____
+____ -->
+
+
+
++ API-permission mapping data: [https://github.com/aper-project/aper-mapping](https://github.com/aper-project/aper-mapping)
+
++ Google Play apps: [AppBrain ranking]({% link /assets/res/appbrain_ranking-top32_100.json %}) and [selected apps]({% link /assets/res/selected-google-play-apps.txt %})
