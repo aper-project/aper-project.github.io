@@ -1,9 +1,10 @@
 ---
 layout: page
-title: "Type-1"
+title: "Type-1 Real Bugs"
 css: ["projects.css"]
-# js: ["https://cdnjs.cloudflare.com/ajax/libs/geopattern/1.2.3/js/geopattern.min.js", "projects.js"]
 ---
 
 {% include Type-1.html %}
+
+(Click "play" button to view video)
 

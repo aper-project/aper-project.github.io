@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Type-2"
+title: "Type-2 Real Bugs"
 css: ["categories.css"]
 ---
 
