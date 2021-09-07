@@ -5,7 +5,7 @@ css: ["projects.css"]
 ---
 ---
 
-|      Device Name (left)     | Android Version (right) | Device Name (right) | Android Version (right) |    App Name    | App Version |
+|      Device Name (left)     | Android Version (left) | Device Name (right) | Android Version (right) |    App Name    | App Version |
 |:--------------------:|:---------------:|:--------------:|:-----------:|
 | Samsung Galaxy Note4 | 6.0.1 | Nexus 5X | 7.1.1 | OpenTopoMap Viewer |     1.11.6    |
 

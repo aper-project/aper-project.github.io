@@ -5,21 +5,18 @@ css: ["projects.css"]
 ---
 ---
 
-|      Device Name     | Android Version |    App Name    | App Version |
+|      Device Name (left)     | Android Version (left) | Device Name (right) | Android Version (right) |    App Name    | App Version |
 |:--------------------:|:---------------:|:--------------:|:-----------:|
-| Samsung Galaxy Note4 |      6.0.1      | Note Crypt Pro |     1.44    |
+|HONOR 20|10| Samsung Galaxy Note4 | 6.0.1 | GPSLogger |     111    |
 
 ---
 
 {% include videopages/type2/gpslogger.html %}
 
-
 ##### Description
-Reproduce crash
-1. etc
+About the evolving dangerous API `LocationManager.getGpsStatus()`.
 
-##### Aper Outputs
-```
-etc
-```
-
+Reproduce inconsistency:
+1. enter the app from the home screen
+2. allow location and storage permission requests
+3. click the start logging button
