@@ -18,7 +18,7 @@ OneBusWay|Yes|No|Yes|No|No
 WordPress|Yes|No|Yes|No|No
 Wiglenet|Yes|No|Yes|No|No
 QKSMS|Yes|No|Yes|No|No
-mapbox-android-demo|No|Yes|No|Yes|No
+Mapbox-android-demo|No|Yes|No|Yes|No
 Dashboard|No|Yes|No|Yes|No
 Nearby|Yes|No|Yes|No|No
 Mapswithme|No|Yes|No|Yes|No
