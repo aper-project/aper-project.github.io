@@ -9,12 +9,12 @@ css: ["categories.css"]
 
 {% include benchmarks/type1/lint.html %}
 
-PkgName|True Positive|True Negative|False Positive|False Negative|Failed
-com.vrem.wifianalyzer.BETA|Yes|No|No|Yes|No
-device-info|Yes|No|No|Yes|No
-sintulabs.ayanda|Yes|No|No|Yes|No
-com.example.lawnchairdemo|Yes|No|No|Yes|No
-testdpc|Yes|No|Yes|No|No
+Name|True Positive|True Negative|False Positive|False Negative|Failed
+WIFIAnalyzer|Yes|No|No|Yes|No
+Device-Info|Yes|No|No|Yes|No
+Ayanda|Yes|No|No|Yes|No
+Android-testdpc|Yes|No|No|Yes|No
+WiFiKeyShare|Yes|No|Yes|No|No
 RNWIFIP2P|Yes|No|Yes|No|No
 Secure-preferences|Yes|No|No|Yes|No
 SmsPlugin|Yes|No|No|Yes|No
@@ -25,13 +25,13 @@ SingleSignOn|Yes|No|No|Yes|No
 AndroidClient|Yes|No|No|Yes|No
 Skunkworks|No|Yes|No|No|No
 Robolectric|Yes|No|No|Yes|No
-photomanagerdemo|Yes|No|No|Yes|No
-mapbox|Yes|No|No|Yes|No
-campus|Yes|No|Yes|No|No
-androidHomeassistant|Yes|No|Yes|No|No
+PhotoManger|Yes|No|No|Yes|No
+MapboxEventsAndroid|Yes|No|No|Yes|No
+Campus-Android|Yes|No|Yes|No|No
+android-Homeassistant|Yes|No|Yes|No|No
 WifiFlutter|Yes|No|Yes|No|No
-connectivity|Yes|No|No|Yes|No
+Connectivity|Yes|No|No|Yes|No
 Transdroid|No|Yes|No|No|No
 CheesecakeAppUpdater|Yes|No|No|Yes|No
-glide|Yes|No|No|Yes|No
-gpslogger|Yes|No|No|Yes|No
+Glide|Yes|No|No|Yes|No
+VpnHotSpot|Yes|No|No|Yes|No
