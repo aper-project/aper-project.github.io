@@ -4,7 +4,7 @@ title: "Benchmark Results"
 css: ["categories.css"]
 ---
 
-Link to ARPfix benchmark: <a href="https://www.example.com" target="_blank">www.example.com</a>
+Link to ARPfix benchmark: <a href="https://github.com/aper-project/arpfix-benchmark" target="_blank">https://github.com/aper-project/arpfix-benchmark</a>
 
 <!-- Link to Aper executable: <a href="https://www.example.com" target="_blank">www.example.com</a> -->
 
@@ -14,23 +14,25 @@ Link to ARPDroid repository: <a href="https://bitbucket.org/malindadoo/arpdroid/
 
 Link to RevDroid repository: <a href="https://github.com/letitb/revdroid" target="_blank">https://github.com/letitb/revdroid</a>
 
+---
+
 We compare the tools by their:
 
-1. True positive ($$TP$$): For a buggy version, detected it as buggy
+1. True positive ($$TP$$): numbers of buggy versions that have warnings
 
-2. True negative ($$TN$$): For a patched version, no warning is reported
+2. True negative ($$TN$$): numbers of patched versions that have no warnings
 
-3. False positive ($$FP$$): For a patched version, detected it as buggy
+3. False positive ($$FP$$): numbers of patched versions that have warnings
 
-4. False negative ($$FN$$): For a buggy version, no warning is reported
+4. False negative ($$FN$$): numbers of buggy versions that have no warnings
 
-The evaluation metrics are:
+The evaluation metrics:
 
 $$Precision=\frac{TP}{TP+FP}$$
 
 $$Recall=\frac{TP}{TP+FN}$$
 
-$$F_1 score=\frac{2*Precision*Recall}{Precision+Recall}$$
+$$F_1\ score=\frac{2*Precision*Recall}{Precision+Recall}$$
 
 $$FPR=\frac{FP}{FP+TN}$$
 
