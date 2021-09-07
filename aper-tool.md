@@ -6,11 +6,11 @@ css: ["categories.css"]
 
 #### Downloads
 
-+ Get Aper executable: [APER-jar-with-dependencies.jar]({% link /assets/bin/APER-jar-with-dependencies.jar %})
++ Get Aper executable: <a href="/assets/bin/APER-jar-with-dependencies.jar" target="_blank">APER-jar-with-dependencies.jar</a>
 
-+ Get mapping: [aper-mapping](https://github.com/aper-project/aper-mapping)
++ Get mapping: <a href="https://github.com/aper-project/aper-mapping" target="_blank">aper-mapping</a>
 
-+ Get Android jar files (recommended): [android-platforms](https://github.com/Sable/android-platforms)
++ Get Android jar files (recommended): <a href="https://github.com/Sable/android-platforms" target="_blank">android-platforms</a>
 
 #### Run Aper
 
