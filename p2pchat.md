@@ -5,21 +5,15 @@ css: ["projects.css"]
 ---
 ---
 
-|      Device Name     | Android Version |    App Name    | App Version |
+|      Device Name (left)     | Android Version (left) | Device Name (middle) | Android Version (middle) | Device Name (right) | Android Version (right) |    App Name    | App Version |
 |:--------------------:|:---------------:|:--------------:|:-----------:|
-| Samsung Galaxy Note4 |      6.0.1      | Note Crypt Pro |     1.44    |
+| Pixel XL | 8.1.0 | Pixel 2 | 9 | Pixel 3 | 10 | P2P Chat Beta | 2.0 |
 
 ---
 
 {% include videopages/type2/p2pchat.html %}
 
-
 ##### Description
-Reproduce crash
-1. etc
-
-##### Aper Outputs
-```
-etc
-```
-
+This inconsistent behavior relates to the API `WifiP2pManager.createGroup()`, which needs ACCESS_FINE_LOCATION permission since API 29.
+In the app P2PChat, this permission is not declared, checked or requested, thus all related functionalities cannot be used, such as create P2P group.
+That's why the inconsistency happens in the three devices, with API levels 27-29.
