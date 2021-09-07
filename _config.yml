@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: "Aper: Detecting Runtime Permission Misuses"
 description: > # this means to ignore newlines until "baseurl:"
- Aper: Detecting Runtime Permission Misuses for Android Apps
+ Aper: Evolution-Aware Runtime Permission Misuse Detection
 baseurl: ""
 # url: "https://shawnteoh.github.io"
 permalink: /:year/:month/:day/:title
@@ -23,7 +23,7 @@ permalink: /:year/:month/:day/:title
 paginate: 5
 
 # MatJek specific configurations
-github_profile: "Https://aper-project.github.io"
+github_profile: "https://aper-project.github.io"
 # user: "Aper"
 # user_email: "john@doe.com"
 # contact_url: "https://goo.gl/tVljbV"
@@ -33,6 +33,12 @@ github_profile: "Https://aper-project.github.io"
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: table
 plugins:
   - jekyll-feed
   - jekyll-paginate
