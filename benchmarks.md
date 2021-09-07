@@ -6,7 +6,7 @@ css: ["categories.css"]
 
 Link to ARPfix benchmark: <a href="https://github.com/aper-project/arpfix-benchmark" target="_blank">https://github.com/aper-project/arpfix-benchmark</a>
 
-<!-- Link to Aper executable: <a href="https://www.example.com" target="_blank">www.example.com</a> -->
+Link to Aper executable: <a href="/aper-tool">APER</a>
 
 Link to Lint source code: <a href="https://android.googlesource.com/platform/tools/base/+/refs/heads/studio-main/lint/libs/lint-checks/src/main/java/com/android/tools/lint/checks/PermissionDetector.kt#458" target="_blank">com/android/tools/lint/checks/PermissionDetector.kt</a>
 
