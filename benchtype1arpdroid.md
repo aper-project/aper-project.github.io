@@ -9,7 +9,7 @@ css: ["categories.css"]
 
 {% include benchmarks/type1/lint.html %}
 
-Name|True Positive|False Negative|False Positive|True Negative|Failed
+Name|True Positive|True Negative|False Positive|False Negative|Failed
 SkyMap|No|Yes|No|No|Yes
 AndroidCommons_1530|Yes|No|Yes|No|No
 GoodWeather_2b5e|No|Yes|No|No|Yes
