@@ -35,6 +35,7 @@ ConsoleLauncher|No|Yes|No|Yes|No
 GoodWeather_81ea|Yes|No|No|Yes|No
 LocationSample|No|Yes|No|Yes|No
 CreatePDF|No|Yes|No|Yes|No
+VREM|No|Yes|No|Yes|No
 SMS_Parsing|No|Yes|No|Yes|No
 AndroidCommons_Da38|No|Yes|No|Yes|No
 GetBackGPS|Yes|No|Yes|No|No
