@@ -8,7 +8,7 @@ css: ["projects.css"]
 
 |      Device Name     | Android Version |    App Name    | App Version |
 |:--------------------:|:---------------:|:--------------:|:-----------:|
-| Samsung Galaxy Note4 |      6.0.1      | Syncopoli |     0.6    |
+| Samsung Galaxy Note4 |      6.0.1      | OI Notepad |     1.5.4    |
 
 ---
 
