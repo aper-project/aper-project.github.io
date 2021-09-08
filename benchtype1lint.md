@@ -9,7 +9,7 @@ css: ["categories.css"]
 
 {% include benchmarks/type1/lint.html %}
 
-Name|True Positive|False Negative|False Positive|True Negative|Failed
+Name|True Positive|True Negative|False Positive|False Negative|Failed
 SkyMap|Yes|No|Yes|No|No
 AndroidCommons_1530|Yes|No|Yes|No|No
 GoodWeather_2b5e|Yes|No|Yes|No|No
@@ -23,7 +23,7 @@ Dashboard|No|Yes|No|Yes|No
 Nearby|Yes|No|Yes|No|No
 Mapswithme|No|Yes|No|Yes|No
 MapBoxEvent|Yes|No|Yes|No|No
-Navit|Yes|No|No|Yes|No
+Navit|Yes|Yes|No|No|No
 LandScape|No|Yes|No|Yes|No
 CameraView|No|Yes|No|Yes|No
 Ventivader|No|Yes|No|Yes|No
@@ -32,14 +32,14 @@ MyPlace|Yes|No|Yes|No|No
 Evercam|No|Yes|No|Yes|No
 Collect|Yes|No|Yes|No|No
 ConsoleLauncher|No|Yes|No|Yes|No
-GoodWeather_81ea|Yes|No|No|Yes|No
+GoodWeather_81ea|Yes|Yes|No|No|No
 LocationSample|No|Yes|No|Yes|No
 CreatePDF|No|Yes|No|Yes|No
 VREM|No|Yes|No|Yes|No
 SMS_Parsing|No|Yes|No|Yes|No
 AndroidCommons_Da38|No|Yes|No|Yes|No
 GetBackGPS|Yes|No|Yes|No|No
-Protesttracker|Yes|No|No|Yes|No
+Protesttracker|Yes|Yes|No|No|No
 TransDroid|No|Yes|No|Yes|No
 K9Mail|No|Yes|No|Yes|No
 KaspatContacts|No|Yes|No|Yes|No
