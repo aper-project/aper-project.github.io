@@ -8,8 +8,13 @@ css: ["projects.css"]
 
 |      Device Name     | Android Version |    App Name    | App Version |
 |:--------------------:|:---------------:|:--------------:|:-----------:|
-| Samsung Galaxy Note4 |      6.0.1      | EtchDroid |     1.5    |
+| Xiaomi MIX 2S |      10      | AsteroidOS Sync |     0.21    |
 
 ---
 
 {% include videopages/type1/asteroidossync.html %}
+
+##### Description
+
+The crash is caused by clicking the "Grant Permission" button when that permissions are actually granted.
+It happens when the user goes the the system setting to grant that permissions (rather than by clicking the button itself).
