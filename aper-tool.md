@@ -8,9 +8,9 @@ css: ["categories.css"]
 
 + Get Aper executable: <a href="/assets/bin/APER-jar-with-dependencies.jar" target="_blank">APER-jar-with-dependencies.jar</a>
 
-+ Get mapping: <a href="https://github.com/aper-project/aper-mapping" target="_blank">aper-mapping</a>
++ Get mapping: <a href="https://github.com/sqlab-sustech/APER-mapping" target="_blank">aper-mapping</a>
 
-+ Get Android jar files (recommended): <a href="https://github.com/Sable/android-platforms" target="_blank">android-platforms</a>
++ Get Android jar files (recommended): <a href="https://github.com/CirQ/android-platforms" target="_blank">android-platforms</a>
 
 #### Run Aper
 
