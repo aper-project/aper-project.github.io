@@ -38,7 +38,7 @@ ___
 
 ____ -->
 
-+ API-permission mapping data: [https://github.com/aper-project/aper-mapping](https://github.com/aper-project/aper-mapping)
++ API-permission mapping data: [https://github.com/sqlab-sustech/APER-mapping](https://github.com/sqlab-sustech/APER-mapping)
 
 + Google Play apps: [AppBrain ranking]({% link /assets/res/appbrain_ranking-top32_100.json %}) and [selected apps]({% link /assets/res/selected-google-play-apps.txt %})
 
