@@ -6,6 +6,8 @@ css: ["index.css"]
 
 {% include index.html %}
 
+(All the data in this website is available at [Zenodo](https://zenodo.org/record/5699434).)
+
 ##### 1: Type-1 bugs in real apps
 (Missing Permission Check): A dangerous API is called without a permission check on the target Android version.
 
