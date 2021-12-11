@@ -4,7 +4,7 @@ title: "ARPfix Benchmark Results"
 css: ["categories.css"]
 ---
 
-Link to ARPfix benchmark: <a href="https://github.com/aper-project/arpfix-benchmark" target="_blank">https://github.com/aper-project/arpfix-benchmark</a>
+Link to ARPfix benchmark: <a href="https://github.com/sqlab-sustech/APER-ARPfix-benchmark" target="_blank">https://github.com/sqlab-sustech/APER-ARPfix-benchmark</a>
 
 Link to Aper executable: <a href="/aper-tool">APER tool</a>
 
