@@ -6,7 +6,7 @@ css: ["categories.css"]
 
 #### Downloads
 
-+ Get Aper source code: <a href="https://github.com/sqlab-sustech/APER-tool" target="_blank">APER-jtool</a>
++ Get Aper source code: <a href="https://github.com/sqlab-sustech/APER-tool" target="_blank">APER-tool</a>
 
 + Get mapping: <a href="https://github.com/sqlab-sustech/APER-mapping" target="_blank">aper-mapping</a>
 
