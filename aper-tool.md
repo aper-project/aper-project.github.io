@@ -6,7 +6,7 @@ css: ["categories.css"]
 
 #### Downloads
 
-+ Get Aper executable: <a href="/assets/bin/APER-jar-with-dependencies.jar" target="_blank">APER-jar-with-dependencies.jar</a>
++ Get Aper source code: <a href="https://github.com/sqlab-sustech/APER-tool" target="_blank">APER-jtool</a>
 
 + Get mapping: <a href="https://github.com/sqlab-sustech/APER-mapping" target="_blank">aper-mapping</a>
 
